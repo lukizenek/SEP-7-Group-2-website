@@ -12,6 +12,33 @@
     position: relative;
     overflow: hidden;
 }
+.header-wmn{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(255,174,0,0.12368697478991597) 0%, rgba(0, 86, 75, 0.681) 100%), url(images/women.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.header-evnt{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(255,174,0,0.12368697478991597) 0%, rgba(0, 86, 75, 0.681) 100%), url(images/events.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.header-crs{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(255,174,0,0.12368697478991597) 0%, rgba(0, 86, 75, 0.681) 100%), url(images/courses.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
 nav{
     display: flex;
     padding: 2% 6%;
