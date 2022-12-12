@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>VIA Engineering</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap'); ;
+        </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="\courses.html">ENGINEERING COURSES</a></li>
+                        <li><a href="quiz.html">ENGINEERING QUIZ</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="women.html">WOMEN IN ENGINEERING</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Engineering Quiz</h1>
+                <p>Do you need inspiration to choose a course of study? <br> Or are you in doubt about which engineering education is right for you? </p>
+                <h3>Take the quiz and learn about which program could fit best with your interests</h3>
+            </div> 
+        
+        </section>
+
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question">What degree is best for you?</h2>
+                
+                <div class="question">
+                    <h2>Choose one</h2>
+                    <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text">Answer</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">Answer</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">Answer</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text">Answer</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="e" class="answer">
+                        <label for="e" id="e_text">Answer</label>
+                    </li>
+                </ul>
+                <button id="result">Next</button>
+                </div>
+            </div>
+        </div>
+
+       
+
+<script src="script.js">
+
+    var navLinks = document.getElementById("navLinks");
+ 
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    </body>
+</html>
